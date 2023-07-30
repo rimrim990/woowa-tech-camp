@@ -2,7 +2,7 @@
 
 ## Test
 
-### `DirtiesContext`
+### `@DirtiesContext`
 
 **Java DOC**
 - 테스트에 `DirtiesContext` 를 표시하면 테스트에 사용되는 `ApplicationContext` 이 오염되었다고 (dirty) 간주하기 때문에 `ApplicationContext` 를 종료하고 컨텍스트 캐시에서 제거한다.
